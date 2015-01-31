@@ -1,0 +1,14 @@
+cd c:/temp/powershell
+git config -user.name "Ramesh Balajepalli"
+git config -user.email "balajepalli@gmail.com"
+~/ takes you to home directory.
+git init (this intializes the git repo in this folder AKA creates .git hidden directory)
+type in ls -a to see the new .git directory.
+touch readme.txt (this is unix command to create a file and this create file in that directory)
+git status gives you what files are added and what are not.
+git commit -m "add readme.txt" (this is commiting to your local repository and still needs to be pushed to online repo)
+git remote add origin https://github.com/balajepalli/Hello-world.git
+git remote -v tells you where is your localy repo going to push to.
+git push -u origin master (to push to master branch)
+
+	
