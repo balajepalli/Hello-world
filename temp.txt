@@ -13,5 +13,6 @@ git commit -m "add *" this will add all files in the folder
 git remote add origin https://github.com/balajepalli/Hello-world.git (This is a one time step)
 git remote -v tells you where is your localy repo going to push to.
 git push -u origin master (to push to master branch)
+git log gives history of all commits on the folder.
 
 	
