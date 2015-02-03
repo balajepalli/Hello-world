@@ -6,8 +6,11 @@ git init (this intializes the git repo in this folder AKA creates .git hidden di
 type in ls -a to see the new .git directory.
 touch readme.txt (this is unix command to create a file and this create file in that directory)
 git status gives you what files are added and what are not.
+git add . will add all files in the project.
+git add "readme.txt" or git add *
 git commit -m "add readme.txt" (this is commiting to your local repository and still needs to be pushed to online repo)
-git remote add origin https://github.com/balajepalli/Hello-world.git
+git commit -m "add *" this will add all files in the folder 
+git remote add origin https://github.com/balajepalli/Hello-world.git (This is a one time step)
 git remote -v tells you where is your localy repo going to push to.
 git push -u origin master (to push to master branch)
 
